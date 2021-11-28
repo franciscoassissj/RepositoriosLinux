@@ -50,4 +50,14 @@ echo ""
 echo "***** FERRAMENTAS DIVERSAS"
 echo ""
 sleep 3
-sudo dnf -y net-tools git ansible nmap htop 
+sudo dnf -y net-tools git ansible nmap htop bash-completion curl zsh tilix telnet
+echo ""
+echo "***** COMPACTADORES"
+echo ""
+sleep 3
+sudo dnf install rar unrar zip unzip p7zip p7zip-plugins
+echo ""
+sleep 3
+echo "***** ***** ***** ***** ***** *****"
+echo "*****   INSTALAÇÃO CONCLUÍDA  *****"
+echo "***** ***** ***** ***** ***** *****"
